@@ -1,0 +1,17 @@
+﻿Build started 23/12/2019 8:51:07 PM.
+     1>Project "C:\Users\User\Documents\Visual Studio 2013\Projects\prototypeRPG\prototypeRPG\prototypeRPG.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         D:\VS Express 2013\VC\bin\CL.exe /c /I"C:\Users\User\Documents\Visual Studio 2013\Projects\prototypeRPG\dependencies\include" /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Game.cpp
+         Game.cpp
+     1>c:\users\user\documents\visual studio 2013\projects\prototyperpg\prototyperpg\ecs.h(24): error C3646: 'noexcept' : unknown override specifier
+     1>c:\users\user\documents\visual studio 2013\projects\prototyperpg\prototyperpg\ecs.h(26): error C2143: syntax error : missing ';' before 'size_t'
+     1>c:\users\user\documents\visual studio 2013\projects\prototyperpg\prototyperpg\ecs.h(26): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\user\documents\visual studio 2013\projects\prototyperpg\prototyperpg\ecs.h(28): error C2975: '_Bits' : invalid template argument for 'std::bitset', expected compile-time constant expression
+                 d:\vs express 2013\vc\include\bitset(20) : see declaration of '_Bits'
+     1>c:\users\user\documents\visual studio 2013\projects\prototyperpg\prototyperpg\ecs.h(29): error C2975: '_Size' : invalid template argument for 'std::array', expected compile-time constant expression
+                 d:\vs express 2013\vc\include\array(18) : see declaration of '_Size'
+     1>Done Building Project "C:\Users\User\Documents\Visual Studio 2013\Projects\prototypeRPG\prototypeRPG\prototypeRPG.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.37
